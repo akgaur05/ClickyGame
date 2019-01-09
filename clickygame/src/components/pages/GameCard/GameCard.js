@@ -5,7 +5,6 @@ function handleClick(props) {
 	props.shuffleCards();
 	props.clickedCharacter(props.id);
 }
-
 function ClickCard(props) {
 	return (
 		<div className="card img-container" onClick={() => handleClick(props)}>
